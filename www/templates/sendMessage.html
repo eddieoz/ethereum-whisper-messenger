@@ -1,0 +1,33 @@
+<ion-view style="" class=" " id="page10" title="Send Message">
+
+    <ion-content class="has-header" padding="true">
+        <form class="list " id="sendMessage-form4">
+            <label id="sendMessage-input3" class="item item-input item-floating-label">
+                <span class="input-label">From</span>
+                <input id="sendFrom" placeholder="From" type="text">
+                <!--<div id="sendFrom"></div>-->
+            </label>
+            <label id="sendMessage-input4" class="item item-input item-floating-label">
+                <span class="input-label">To</span>
+                <input id="sendMessageTo" placeholder="To" type="text">
+            </label>
+            <label id="sendMessage-input5" class="item item-input item-floating-label">
+                <span class="input-label">Message</span>
+                <input id="messagePayload" placeholder="Message" type="text">
+            </label>
+        </form>
+        <button class=" button button-positive  button-block " id="sendMessage-button4" onclick="sendMessage()">Send message</button>
+
+        <div id="sendMessage-card24" class="list card ">
+            <ion-item style="" id="sendMessage-list-item8" class="item-icon-left  ">
+                <i class="icon ion-ios-personadd-outline"></i>Show messages</ion-item>
+            <div style="" id="sendMessage-list-item-container5" class="item item-body ">
+                <p class=" " style="margin-top:0px;color:#000000;" id="sendMessage-markdown1"><div id="showMessage"></div></p>     
+         
+            </div>
+            <ion-item style="" id="sendMessage-list-item9" class="item-icon-left positive  ">
+                <i class="icon md-mail"></i>Show messages</ion-item>
+        </div>
+    </ion-content>
+    
+</ion-view>
